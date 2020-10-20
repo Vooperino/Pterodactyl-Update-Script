@@ -19,7 +19,7 @@ php artisan migrate --force
 php artisan db:seed --force
 chown -R www-data:www-data *
 php artisan up
-#echo "Updating Wings service"
+echo "Updating Wings service"
 cd /usr/local/bin
 curl -L -o /usr/local/bin/wings https://github.com/pterodactyl/wings/releases/download/$wings_version/wings_linux_amd64
 chmod u+x /usr/local/bin/wings
