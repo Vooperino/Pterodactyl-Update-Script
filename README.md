@@ -3,7 +3,7 @@ a small linux script to update the pterodactyl panel.
 
 Not compatile with CentOS (yet)
 
-##Supported Linux (Unix) OS
+## Supported Linux (Unix) OS
 
 | Linux Distro | Support          |
 | ------- | ------------------ |
