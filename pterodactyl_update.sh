@@ -1,14 +1,10 @@
 #!/bin/bash
-
 #THIS IS A EARLY STAGE OF THIS SCRIPT, MORE PART GOING TO BE ADDED LIKE CENTOS SUPPORT!
-
 export PYTHONIOENCODING=utf8
 #EDITABLE PART
-
 PATH_TO_PANEL_WEB='/var/www/pterodactyl'
 PATH_TO_WINGS_SERVICE='/usr/local/bin'
-
-#DO NOT EDIT UNLESS IF YOU KNOW WAHTA ARE YOU DOING!
+#DO NOT EDIT UNLESS IF YOU KNOW WHAT ARE YOU DOING!
 export PYTHONIOENCODING=utf8
 panel_version=$(curl -s 'https://api.github.com/repos/pterodactyl/panel/releases/latest' | \
     python2 -c "import sys, json; print json.load(sys.stdin)['tag_name']")
